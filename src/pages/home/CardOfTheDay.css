@@ -1,0 +1,62 @@
+.card-of-the-day {
+    flex: 1 1 auto;
+    max-width: 440px;
+}
+
+.card-of-the-day__container {
+    display: flex;
+    flex: 1 1;
+    flex-wrap: wrap;
+    border-radius: 1.5em;
+    margin-top: 0.5rem;
+}
+
+.img__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.625em 0.75em;
+    margin: 0.75em;
+}
+
+.card-info {
+    flex: 1.2;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1.125em;
+    margin-left: 0;
+    margin-right: 1.25em;
+}
+
+.card-info__container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    margin: 0.75em;
+    padding: 8px;
+}
+
+.card-info__container p {
+    font-size: 0.875rem;
+    padding-left: 8px;
+}
+
+.inline-container{
+    flex: 100%;
+}
+
+.card-desc {
+    flex: 100%;
+}
+
+.card-desc__container {
+    height: 12.5em;
+    margin: 1.25em;
+    margin-top: 0;
+    padding: 0.5em 1em;
+    overflow: scroll;
+}
+
+.card-desc__container p {
+    font-size: 0.875rem;
+}

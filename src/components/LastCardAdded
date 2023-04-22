@@ -1,0 +1,15 @@
+const LastCardAdded = () => {
+    return(
+        <div className="component single-component">
+             <div className="component--container__title text-secondary-900">
+                <h2 className="fs-secondary-heading fw-semi-bold">Last cards added</h2>
+            </div>
+            <div className="component--container__title-line"></div>
+            <div className="component-container">
+                
+            </div>
+        </div>
+    );
+}
+
+export default LastCardAdded;
